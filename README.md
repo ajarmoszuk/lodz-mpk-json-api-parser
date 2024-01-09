@@ -1,4 +1,5 @@
 # Timetable Cache and Retrieval for Łódź MPK XML API
+[![Go](https://github.com/ajarmoszuk/lodz-mpk-xml-parser-api/actions/workflows/go.yml/badge.svg)](https://github.com/ajarmoszuk/lodz-mpk-xml-parser-api/actions/workflows/go.yml)
 
 This Go application provides a simple HTTP server that caches and retrieves timetable data for bus and/or tram stops. It uses an SQLite database to store cached data and fetches new data from an external API when needed and returns the data in a JSON format. 
 
