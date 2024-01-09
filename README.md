@@ -38,7 +38,7 @@ Replace 573 with the desired bus or tram stop number. You can retrieve the ID of
 # Error Handling
 
 The application handles various error scenarios and returns JSON error responses with appropriate status codes.
-Structure
+# Structure
 
     main.go: The main application code, including the HTTP server setup, caching logic, and error handling.
     cache.db: SQLite database file for storing cached timetable data.
